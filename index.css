@@ -1,0 +1,121 @@
+
+body{
+
+font-family: arial, helvetica;
+background: #e8e8e8;
+
+}
+
+
+.buscador-container {
+    display: flex; 
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.buscador {
+    width: 150px; 
+    height: 50px; 
+    font-size: 16px;
+      }
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin-left: 100px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+ 
+.registro-button {
+    background-color: #a33eb8;
+    border-radius: 5px; 
+    color: white; 
+    
+    
+     }
+
+     .Inicio-button {
+       color: rgb(22, 115, 177);
+       margin-left: 450px;
+     }
+
+     .menu {
+        align-items: flex-end;  }
+ 
+
+.menu li a:hover{
+    background: #ef8354;
+}
+
+
+body {
+    background-image: url(imagen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.buscador-container{
+    margin-left: 200px;
+}
+
+
+    .centrado {
+        text-align: center;
+        font-size: 23px;
+}
+
+.img-01{
+    width: 250px;
+    height: 250px;
+    margin-left: 200px;
+}
+
+.img-02{
+    width: 250px;
+    height: 260px;
+    margin-top: 50px;
+}
+
+.img-03{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.imagenes-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;   }
+
+.imagen {
+    width: 90px; 
+    height: auto; 
+    margin: 0 100px; 
+    margin-right: 90px;  }
+
+.texto {
+    margin: 0 20px; 
+    text-align: left; 
+    margin-right: 100px;
+}
